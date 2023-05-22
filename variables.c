@@ -5,7 +5,7 @@ int main (){
     long z;
     double a ;
     char b;
-     printf("Enter integer value:-");
+     printf("Enter integer value :-");
      scanf("%d", &x);
      printf("'%d',it is a integer value \n", x);
      printf("Enter float value:-");

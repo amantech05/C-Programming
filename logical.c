@@ -9,7 +9,7 @@ int main(){
     printf("(x==y)&&(z<y)is %d\n",result);
 
     result=(x==y)|| (z<y);
-    printf("(x==y)&& (z<y)is %d \n",result);
+    printf("(x==y)||(z<y)is %d \n",result);
 
     result=(x!=y)|| (z<y);
     printf("(x!=y)||(z<y)is %d \n",result);

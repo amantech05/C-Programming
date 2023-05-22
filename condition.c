@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main(){
     int x =2;
-    int age;
-    printf("Enter the age:-");
-    scanf("%d",&age);
-    if(age==20){
-        printf("your age is equal to '20' years.=%d",x);
+    int num;
+    printf("Enter the num:-");
+    scanf("%d",&num);
+    if(num==10){
+        printf("the number is equal to 10.=%d",x);
     }
-    else if (age > 20 ){
-        printf("your age is greater then '20' years.=%d",x);
+    else if (num > 10 ){
+        printf("the number is greater then 10.=%d",x);
     }
-    else{
-        printf("your age is smaller than '20'years.=");
+    else {
+        printf("the number is smaller then 10.=");
     }
     return 0;
 
